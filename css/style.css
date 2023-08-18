@@ -28,7 +28,7 @@ ul, ol{
     color: #2E2F42;
 }
 
-.header-nav-list li a{
+.header-nav-link{
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -40,10 +40,11 @@ ul, ol{
     font-style: normal;
 }
 
-.header-address-list li a{
+.header-address-link{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
+    color: #434455;
 }
 
 .header-nav-list li a:active, 
@@ -74,7 +75,6 @@ ul, ol{
 
 .intro-btn{
     background: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 
     color: #FFF;
     font-size: 16px;
@@ -98,6 +98,7 @@ ul, ol{
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    color: #2E2F42;
 }
 
 .card-list-title{
@@ -105,6 +106,7 @@ ul, ol{
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
+    color: #2E2F42;
 }
 
 .card-list-description{
@@ -120,6 +122,10 @@ ul, ol{
     background: #F4F4FD;
 }
 
+.team-card-item{
+    background-color: #FFFFFF;
+}
+
 .team .card-list h3, .team .card-list p{
     text-align: center;
 }
@@ -131,7 +137,7 @@ ul, ol{
     background: #2E2F42;
 }
 
-.footer .logo span{
+.footer-logo{
     color: #F4F4FD;
 }
 
