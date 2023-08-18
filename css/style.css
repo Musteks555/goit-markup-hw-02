@@ -1,6 +1,6 @@
 body{
     font-family: Roboto, sans-serif;
-    color: #2E2F42;
+    color: #434455;
     background-color: #FFF;
 }
 
@@ -18,13 +18,14 @@ ul, ol{
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    color: #4d5ae5;
 }
 
 .logo span{
-    color: #4D5AE5;
+    color: #2E2F42;
 }
 
 .header-nav-list li a{
@@ -32,22 +33,28 @@ ul, ol{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
+    color: #2E2F42;
 }
 
-.header-nav-list li a:active, .header-nav-list li a:focus{
-    color: #404BBF;
+.header-address{
+    font-style: normal;
 }
 
 .header-address-list li a{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    color: #434455;
 }
 
-.header-address-list li a:active, .header-address-list li a:focus{
+.header-nav-list li a:active, 
+.header-nav-list li a:focus, 
+.header-nav-list li a:hover,
+.header-address-list li a:active, 
+.header-address-list li a:focus, 
+.header-address-list li a:hover{
     color: #404BBF;
 }
+
 
 
 
@@ -66,7 +73,6 @@ ul, ol{
 }
 
 .intro-btn{
-    border-radius: 4px;
     background: #4D5AE5;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 
@@ -75,9 +81,11 @@ ul, ol{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.64px;
+
+    cursor: pointer;
 }
 
-.intro-btn:hover{
+.intro-btn:hover, .intro-btn:active, .intro-btn:focus{
     background: #404BBF;
 }
 
@@ -92,15 +100,14 @@ ul, ol{
     text-transform: capitalize;
 }
 
-.card-list h3{
+.card-list-title{
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
 }
 
-.card-list p{
-    color: #434455;
+.card-list-description{
     font-size: 16px;
     line-height: 1.5; 
     letter-spacing: 0.32px;
@@ -120,6 +127,10 @@ ul, ol{
 
 
 /* footer */
+.footer{
+    background: #2E2F42;
+}
+
 .footer-description{
     color: #F4F4FD;
     font-size: 16px;
