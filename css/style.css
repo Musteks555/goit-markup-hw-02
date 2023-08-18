@@ -24,7 +24,7 @@ ul, ol{
     color: #4d5ae5;
 }
 
-.logo span{
+.header .logo span{
     color: #2E2F42;
 }
 
@@ -129,6 +129,10 @@ ul, ol{
 /* footer */
 .footer{
     background: #2E2F42;
+}
+
+.footer .logo span{
+    color: #F4F4FD;
 }
 
 .footer-description{
